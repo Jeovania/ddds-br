@@ -276,6 +276,7 @@ describe('ddds', () => {
 describe('localPorDDD', () => {
     it('deve retornar o nome de um local', () => {
         expect(localPorDDD('85')).toEqual('Ceará');
+        expect(localPorDDD(85)).toEqual('Ceará');
         expect(localPorDDD('ABC')).toEqual('');
         expect(localPorDDD('')).toEqual('');
         expect(localPorDDD()).toEqual('');
