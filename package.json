@@ -1,0 +1,43 @@
+{
+  "name": "ddds-br",
+  "version": "0.0.1",
+  "description": "Listagem de DDDs brasileiros e seus locais",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "npm run copy && npm run babel",
+    "babel": "babel ./index.js -d ./dist",
+    "copy": "copyfiles DDDs.json dist",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeovania/ddds-br.git"
+  },
+  "keywords": [
+    "ddd",
+    "brasil",
+    "json"
+  ],
+  "author": "Jeovania L. Abreu <jeovaniaabreu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeovania/ddds-br/issues"
+  },
+  "homepage": "https://github.com/Jeovania/ddds-br#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1",
+    "copyfiles": "^1.2.0"
+  }
+}

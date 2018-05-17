@@ -1,0 +1,17 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "env": {
+        "jest": true
+    },
+    "globals": {
+    },
+    "rules": {
+        "brace-style": [1, "allman", { "allowSingleLine": true }],
+        "indent": [1, 4, { "SwitchCase": 1, "VariableDeclarator": { "var": 1, "let": 1, "const": 1 } }]
+    }
+}
