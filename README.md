@@ -2,7 +2,7 @@
 
 > Lista de ddd de telefones brasileiros e seus locais
 
-[![NPM](https://img.shields.io/npm/v/react-circular-loading.svg)](https://www.npmjs.com/package/react-circular-loading) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/ddds-br.svg)](https://www.npmjs.com/package/ddds-br) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
