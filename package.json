@@ -1,6 +1,6 @@
 {
   "name": "ddds-br",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Listagem de DDDs brasileiros e seus locais",
   "main": "dist/index.js",
   "scripts": {
