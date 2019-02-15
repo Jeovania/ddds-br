@@ -13,10 +13,11 @@ npm i --save ddds-br
 ## Usage
 
 ```jsx
-import { ddds, localPorDDD } from 'ddds-br'
+import { ddds, localPorDDD, listaDeCidades } from 'ddds-br'
 
 //..
 console.log(ddds); // Objeto com todos os ddds brasileros
 console.log(localPorDDD('12')); // 'São Paulo (Interior)'
+console.log(listaDeCidades('11')); // [ { cidade: 'São Paulo', uf 'SP' }, ... ]
 //..
 ```

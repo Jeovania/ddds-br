@@ -7,7 +7,7 @@
     "start": "npm run build",
     "build": "npm run copy && npm run babel",
     "babel": "babel ./index.js -d ./dist",
-    "copy": "copyfiles DDDs.json dist",
+    "copy": "copyfiles DDDs.json cidades.json dist",
     "test": "jest",
     "prepublish": "npm run build"
   },

@@ -1,4 +1,4 @@
-import { ddds, localPorDDD } from './dist/index';
+import { ddds, localPorDDD, listaDeCidades } from './dist/index';
 
 const LISTA_DDDS = [
 	{
@@ -281,4 +281,16 @@ describe('localPorDDD', () => {
         expect(localPorDDD('')).toEqual('');
         expect(localPorDDD()).toEqual('');
     });
+});
+
+describe('listaDeCidades', () => {
+	it('deve retornar uma lista de cidades pelo DDD', () => {
+		expect(listaDeCidades('85').length).toBeGreaterThan(0);
+		expect(listaDeCidades(11).length).toBeGreaterThan(0);
+	});
+
+	it('deve retornar uma lista vazia com um DDD inexistente', () => {
+		expect(listaDeCidades(10).length).toBe(0);
+		expect(listaDeCidades(100).length).toBe(0);
+	})
 });
